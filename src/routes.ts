@@ -1,12 +1,12 @@
 import { Routes } from '@angular/router';
 
-import { HomeComponent } from './app/home/home.component';
-import { AboutComponent } from './app/about/about.component';
-import { SolutionAreasComponent } from './app/solution-areas/solution-areas.component';
-import { CaseStudiesComponent } from './app/case-studies/case-studies.component';
-import { MultimediaComponent } from './app/multimedia/multimedia.component';
-import { TeamComponent } from './app/team/team.component';
-import { ContactComponent } from './app/contact/contact.component';
+import { HomeComponent } from './app/routes/home/home.component';
+import { AboutComponent } from './app/routes/about/about.component';
+import { SolutionAreasComponent } from './app/routes/solution-areas/solution-areas.component';
+import { CaseStudiesComponent } from './app/routes/case-studies/case-studies.component';
+import { MultimediaComponent } from './app/routes/multimedia/multimedia.component';
+import { TeamComponent } from './app/routes/team/team.component';
+import { ContactComponent } from './app/routes/contact/contact.component';
 
 const routeConfig: Routes = [
   {
