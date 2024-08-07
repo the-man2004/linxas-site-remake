@@ -1,0 +1,20 @@
+.route-link {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  margin: 0 auto;
+  display: block;
+
+  transition: all 100ms ease;
+}
+
+.route-link:hover {
+  color: #ffa400;
+  transform: translateY(1px);
+}
+
+.route-link.active {
+  color: #ffa400;
+}

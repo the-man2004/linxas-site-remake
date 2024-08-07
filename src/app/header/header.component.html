@@ -1,24 +1,81 @@
-<header class="px-8 py-4 flex justify-between lg:px-20">
-  <p>
-    <a routerLink="/" class="px-2 font-bold text-xl">CheckIDInSAP</a>
-  </p>
-  <menu class="flex">
-    <li><a routerLink="/" class="px-2 font-bold text-sm">HOME</a></li>
-    <li><a routerLink="/about" class="px-2 font-bold text-sm">ABOUT</a></li>
-    <li>
-      <a routerLink="/solution-areas" class="px-2 font-bold text-sm"
-        >SOLUTION AREAS</a
-      >
-    </li>
-    <li>
-      <a routerLink="/case-studies" class="px-2 font-bold text-sm"
-        >CASE STUDIES</a
-      >
-    </li>
-    <li>
-      <a routerLink="/multimedia" class="px-2 font-bold text-sm">MULTIMEDIA</a>
-    </li>
-    <li><a routerLink="/team" class="px-2 font-bold text-sm">TEAM</a></li>
-    <li><a routerLink="/contact" class="px-2 font-bold text-sm">CONTACT</a></li>
-  </menu>
+<header
+  class="px-9 py-3 flex justify-between shadow-sm shadow-gray-200 lg:px-20"
+>
+  <nav>
+    <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="px-2 font-bold text-xl hover:text-gray-500"
+      >CheckIDInSAP</a
+    >
+  </nav>
+
+  <nav class="flex flex-col justify-center">
+    <ul class="flex">
+      <li>
+        <a
+          routerLink="/"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="route-link"
+          >HOME</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/about"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="route-link"
+          >ABOUT</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/solution-areas"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="route-link"
+          >SOLUTION AREAS 🡇</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/case-studies"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="route-link"
+          >CASE STUDIES 🡇</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/multimedia"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="route-link"
+          >MULTIMEDIA</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/team"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="route-link"
+          >TEAM</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/contact"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          class="route-link"
+          >CONTACT</a
+        >
+      </li>
+    </ul>
+  </nav>
 </header>
