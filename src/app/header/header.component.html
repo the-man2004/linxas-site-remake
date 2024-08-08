@@ -6,76 +6,21 @@
       routerLink="/"
       routerLinkActive="active"
       [routerLinkActiveOptions]="{ exact: true }"
-      class="px-2 font-bold text-xl hover:text-gray-500"
+      class="font-bold text-xl hover:text-gray-500"
       >CheckIDInSAP</a
     >
   </nav>
 
-  <nav class="flex flex-col justify-center">
-    <ul class="flex">
-      <li>
-        <a
-          routerLink="/"
-          routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: true }"
-          class="route-link"
-          >HOME</a
-        >
-      </li>
-      <li>
-        <a
-          routerLink="/about"
-          routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: true }"
-          class="route-link"
-          >ABOUT</a
-        >
-      </li>
-      <li>
-        <a
-          routerLink="/solution-areas"
-          routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: true }"
-          class="route-link"
-          >SOLUTION AREAS 🡇</a
-        >
-      </li>
-      <li>
-        <a
-          routerLink="/case-studies"
-          routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: true }"
-          class="route-link"
-          >CASE STUDIES 🡇</a
-        >
-      </li>
-      <li>
-        <a
-          routerLink="/multimedia"
-          routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: true }"
-          class="route-link"
-          >MULTIMEDIA</a
-        >
-      </li>
-      <li>
-        <a
-          routerLink="/team"
-          routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: true }"
-          class="route-link"
-          >TEAM</a
-        >
-      </li>
-      <li>
-        <a
-          routerLink="/contact"
-          routerLinkActive="active"
-          [routerLinkActiveOptions]="{ exact: true }"
-          class="route-link"
-          >CONTACT</a
-        >
-      </li>
-    </ul>
+  <app-navigation-links
+    styleClass="h-full hidden lg:flex lg:flex-col lg:justify-center"
+  />
+
+  <nav class="lg:hidden">
+    <button (click)="onMenuClick()">Burger</button>
+    @if (isMenuOpen) {
+    <app-navigation-links
+      styleClass="bg-white absolute left-0 right-0 top-[52px] px-9 py-5 w-screen border border-t-gray-200 border-b-gray-200 lg:hidden"
+    />
+    }
   </nav>
 </header>
