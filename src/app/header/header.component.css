@@ -1,1 +1,37 @@
+.hamburger {
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 4px;
+  background: #ffa400;
 
+  transition: all 100ms ease;
+}
+
+.hamburger::before {
+  content: "";
+
+  display: block;
+  position: relative;
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+
+  transform: translateY(6px);
+}
+
+.hamburger::after {
+  content: "";
+
+  display: block;
+  position: relative;
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+
+  transform: translateY(-10px);
+}
+
+button:hover .hamburger {
+  transform: translateY(1px);
+}
