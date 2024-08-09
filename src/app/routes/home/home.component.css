@@ -19,8 +19,8 @@
   z-index: -1;
 }
 
-h2,
-h3 {
+.hero h2,
+.hero h3 {
   color: black;
   text-shadow: 0.05em 0 white, 0 0.05em white, -0.05em 0 white, 0 -0.05em white;
 }
