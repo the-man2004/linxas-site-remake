@@ -1,1 +1,75 @@
-<p>contact works!</p>
+<div class="mt-[52px]">
+  <app-logo />
+  <main class="mx-auto max-w-[1500px] pb-10 px-10 lg:pb-20 lg:px-20">
+    <h2 class="py-5 text-center font-bold text-2xl lg:py-10 lg:text-4xl">
+      GET IN TOUCH
+    </h2>
+
+    <p class="text-center text-lg lg:text-xl">
+      Simple and Powerful Authentication
+    </p>
+
+    <div
+      class="mx-auto max-w-[1500px] grid gap-10 pt-10 md:grid-cols-2 lg:pt-20"
+    >
+      <form class="flex flex-col gap-5">
+        <input
+          class="p-3 rounded-md border border-gray-200"
+          required
+          type="text"
+          placeholder="Name"
+        />
+        <input
+          class="p-3 rounded-md border border-gray-200"
+          required
+          type="email"
+          placeholder="Email"
+        />
+        <input
+          class="p-3 rounded-md border border-gray-200"
+          required
+          type="text"
+          placeholder="Subject"
+        />
+        <textarea
+          class="p-3 rounded-md h-44 border border-gray-200"
+          required
+          placeholder="Message"
+        ></textarea>
+        <button
+          class="py-2 px-6 rounded-md bg-black text-white text-sm font-bold md:w-[50%] md:text-lg"
+        >
+          SEND
+        </button>
+      </form>
+
+      <div class="p-5 rounded-md border border-gray-200 lg:p-10">
+        <h2
+          class="text-[#ffa400] mb-0.5 font-semibold text-2xl lg:mb-3.5 lg:text-3xl"
+        >
+          CONTACT US
+        </h2>
+
+        <h3 class="py-2 font-semibold text-lg lg:text-xl">Johannesburg</h3>
+        <p class="text-lg lg:text-xl">Linx Africa</p>
+        <p class="text-lg lg:text-xl">262 Main Ave</p>
+        <p class="text-lg lg:text-xl">
+          Ground Floor, First House Ferndale, Randburg
+        </p>
+        <p class="text-lg lg:text-xl">South Africa, 2194</p>
+        <h3 class="py-2 font-semibold text-lg lg:text-xl">Talk to Us</h3>
+        <p class="text-lg lg:text-xl">
+          Email: werner{{ "@" }}checkidinsap.co.za
+        </p>
+        <p class="text-lg lg:text-xl">Tel: +27(0)87-809-0290</p>
+        <p class="text-lg lg:text-xl">Cell: +27(0)83-495-3955</p>
+
+        <img
+          src="assets/qrcode.png"
+          alt="A QR Code"
+          class="mt-5 border border-gray-200 lg:mt-10"
+        />
+      </div>
+    </div>
+  </main>
+</div>
