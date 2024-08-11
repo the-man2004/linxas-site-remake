@@ -6,5 +6,6 @@ import { LogoComponent } from '../../shared/logo/logo.component';
   standalone: true,
   imports: [LogoComponent],
   templateUrl: './contact.component.html',
+  styleUrl: './contact.component.css',
 })
 export class ContactComponent {}
