@@ -7,5 +7,6 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [LogoComponent, RouterModule],
   templateUrl: './solution-areas.component.html',
+  styleUrl: './solution-areas.component.css',
 })
 export class SolutionAreasComponent {}
