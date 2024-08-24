@@ -9,6 +9,7 @@ import { TeamComponent } from './app/routes/team/team.component';
 import { ContactComponent } from './app/routes/contact/contact.component';
 
 import { FinanceComponent } from './app/routes/solution-areas/finance/finance.component';
+import { HumanResourcesComponent } from './app/routes/solution-areas/human-resources/human-resources.component';
 
 const routeConfig: Routes = [
   {
@@ -30,9 +31,15 @@ const routeConfig: Routes = [
   {
     path: 'solution-areas/finance',
     component: FinanceComponent,
-    title: 'Solution Areas - CheckIDInSAP',
+    title: 'Finance - CheckIDInSAP',
+  },
+  {
+    path: 'solution-areas/human-resources',
+    component: HumanResourcesComponent,
+    title: 'Human Resources - CheckIDInSAP',
   },
   // ---------------------
+
   {
     path: 'case-studies',
     component: CaseStudiesComponent,
