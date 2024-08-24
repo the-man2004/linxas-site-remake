@@ -8,6 +8,8 @@ import { MultimediaComponent } from './app/routes/multimedia/multimedia.componen
 import { TeamComponent } from './app/routes/team/team.component';
 import { ContactComponent } from './app/routes/contact/contact.component';
 
+import { FinanceComponent } from './app/routes/solution-areas/finance/finance.component';
+
 const routeConfig: Routes = [
   {
     path: '',
@@ -24,6 +26,13 @@ const routeConfig: Routes = [
     component: SolutionAreasComponent,
     title: 'Solution Areas - CheckIDInSAP',
   },
+  // --------------------
+  {
+    path: 'solution-areas/finance',
+    component: FinanceComponent,
+    title: 'Solution Areas - CheckIDInSAP',
+  },
+  // ---------------------
   {
     path: 'case-studies',
     component: CaseStudiesComponent,
