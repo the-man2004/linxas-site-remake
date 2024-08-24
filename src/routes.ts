@@ -11,6 +11,7 @@ import { ContactComponent } from './app/routes/contact/contact.component';
 import { FinanceComponent } from './app/routes/solution-areas/finance/finance.component';
 import { HumanResourcesComponent } from './app/routes/solution-areas/human-resources/human-resources.component';
 import { CustomerServiceComponent } from './app/routes/solution-areas/customer-service/customer-service.component';
+import { SupplyChainComponent } from './app/routes/solution-areas/supply-chain/supply-chain.component';
 
 const routeConfig: Routes = [
   {
@@ -43,6 +44,11 @@ const routeConfig: Routes = [
     path: 'solution-areas/customer-service',
     component: CustomerServiceComponent,
     title: 'Customer Service - CheckIDInSAP',
+  },
+  {
+    path: 'solution-areas/supply-chain',
+    component: SupplyChainComponent,
+    title: 'Supply Chain - CheckIDInSAP',
   },
   // ---------------------
 
