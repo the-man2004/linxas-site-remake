@@ -12,6 +12,7 @@ import { FinanceComponent } from './app/routes/solution-areas/finance/finance.co
 import { HumanResourcesComponent } from './app/routes/solution-areas/human-resources/human-resources.component';
 import { CustomerServiceComponent } from './app/routes/solution-areas/customer-service/customer-service.component';
 import { SupplyChainComponent } from './app/routes/solution-areas/supply-chain/supply-chain.component';
+import { DataSecurityComponent } from './app/routes/solution-areas/data-security/data-security.component';
 
 const routeConfig: Routes = [
   {
@@ -49,6 +50,11 @@ const routeConfig: Routes = [
     path: 'solution-areas/supply-chain',
     component: SupplyChainComponent,
     title: 'Supply Chain - CheckIDInSAP',
+  },
+  {
+    path: 'solution-areas/data-security',
+    component: DataSecurityComponent,
+    title: 'Data Security - CheckIDInSAP',
   },
   // ---------------------
 
