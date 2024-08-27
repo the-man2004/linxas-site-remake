@@ -19,7 +19,7 @@ export class CaseStudiesComponent {
     {
       title: 'Banking Fraud',
       text: 'A major international bank required biometric security capabilities natively embedded in their SAP system as part of their internal checks and balances requirements.',
-      url: '',
+      url: '/case-studies/banking-fraud',
       id: 2,
     },
     {

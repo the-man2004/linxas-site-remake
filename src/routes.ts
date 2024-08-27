@@ -15,6 +15,7 @@ import { SupplyChainComponent } from './app/routes/solution-areas/supply-chain/s
 import { DataSecurityComponent } from './app/routes/solution-areas/data-security/data-security.component';
 
 import { SupplyChainComponent as SupplyChainCaseStudyComponent } from './app/routes/case-studies/supply-chain/supply-chain.component';
+import { BankingFraudComponent } from './app/routes/case-studies/banking-fraud/banking-fraud.component';
 
 const routeConfig: Routes = [
   {
@@ -72,6 +73,11 @@ const routeConfig: Routes = [
     path: 'case-studies/supply-chain',
     component: SupplyChainCaseStudyComponent,
     title: 'Supply Chain - CheckIDInSAP',
+  },
+  {
+    path: 'case-studies/banking-fraud',
+    component: BankingFraudComponent,
+    title: 'Banking Fraud - CheckIDInSAP',
   },
   // --------------------
   {
