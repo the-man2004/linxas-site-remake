@@ -16,6 +16,7 @@ import { DataSecurityComponent } from './app/routes/solution-areas/data-security
 
 import { SupplyChainComponent as SupplyChainCaseStudyComponent } from './app/routes/case-studies/supply-chain/supply-chain.component';
 import { BankingFraudComponent } from './app/routes/case-studies/banking-fraud/banking-fraud.component';
+import { ProcureToPayComponent } from './app/routes/case-studies/procure-to-pay/procure-to-pay.component';
 
 const routeConfig: Routes = [
   {
@@ -78,6 +79,11 @@ const routeConfig: Routes = [
     path: 'case-studies/banking-fraud',
     component: BankingFraudComponent,
     title: 'Banking Fraud - CheckIDInSAP',
+  },
+  {
+    path: 'case-studies/procure-to-pay',
+    component: ProcureToPayComponent,
+    title: 'Procure-to-Pay - CheckIDInSAP',
   },
   // --------------------
   {

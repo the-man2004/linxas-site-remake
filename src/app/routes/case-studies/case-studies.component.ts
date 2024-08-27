@@ -25,7 +25,7 @@ export class CaseStudiesComponent {
     {
       title: 'Procure-to-Pay',
       text: 'With over half a century of glass manufacturing experience in South Africa, Consol has a heritage that is truly South African and assumes its position as industry leader with pride.',
-      url: '',
+      url: '/case-studies/procure-to-pay',
       id: 3,
     },
     {
