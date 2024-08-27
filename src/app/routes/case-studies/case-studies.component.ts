@@ -31,7 +31,7 @@ export class CaseStudiesComponent {
     {
       title: 'Payroll Fraud',
       text: 'The Association of Fraud Examiners defines payroll fraud as “any scheme in which an employee causes an employer to issue a payment by making false claims for compensation.” This means that every organization that pays employees can be a victim of fraud.',
-      url: '',
+      url: '/case-studies/payroll-fraud',
       id: 4,
     },
     {
