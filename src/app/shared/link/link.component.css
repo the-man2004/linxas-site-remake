@@ -1,0 +1,10 @@
+a {
+  width: 50%;
+  text-align: center;
+  transition: all 100ms ease;
+}
+
+a:hover {
+  transform: translateY(2px);
+  box-shadow: 1px 1px 15px rgba(88, 88, 88, 0.8);
+}
