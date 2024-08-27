@@ -13,7 +13,7 @@ export class CaseStudiesComponent {
     {
       title: 'Supply Chain',
       text: 'Users are authenticated biometrically before they can access SAP systems via shared access kiosks. We no longer have to worry about password fraud from these users at all.',
-      url: '',
+      url: '/case-studies/supply-chain',
       id: 1,
     },
     {

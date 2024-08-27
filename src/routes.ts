@@ -14,6 +14,8 @@ import { CustomerServiceComponent } from './app/routes/solution-areas/customer-s
 import { SupplyChainComponent } from './app/routes/solution-areas/supply-chain/supply-chain.component';
 import { DataSecurityComponent } from './app/routes/solution-areas/data-security/data-security.component';
 
+import { SupplyChainComponent as SupplyChainCaseStudyComponent } from './app/routes/case-studies/supply-chain/supply-chain.component';
+
 const routeConfig: Routes = [
   {
     path: '',
@@ -31,6 +33,7 @@ const routeConfig: Routes = [
     title: 'Solution Areas - CheckIDInSAP',
   },
   // --------------------
+  // ALL THE SOLUTION AREAS ROUTES
   {
     path: 'solution-areas/finance',
     component: FinanceComponent,
@@ -63,6 +66,14 @@ const routeConfig: Routes = [
     component: CaseStudiesComponent,
     title: 'Case Studies - CheckIDInSAP',
   },
+  // --------------------
+  // ALL THE CASE STUDIES ROUTES
+  {
+    path: 'case-studies/supply-chain',
+    component: SupplyChainCaseStudyComponent,
+    title: 'Supply Chain - CheckIDInSAP',
+  },
+  // --------------------
   {
     path: 'multimedia',
     component: MultimediaComponent,
