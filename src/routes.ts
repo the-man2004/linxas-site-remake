@@ -22,6 +22,7 @@ import { RetailAndPosComponent } from './app/routes/case-studies/retail-and-pos/
 import { EmployeeSelfServiceComponent } from './app/routes/case-studies/employee-self-service/employee-self-service.component';
 import { WorkflowApprovalsComponent } from './app/routes/case-studies/workflow-approvals/workflow-approvals.component';
 import { PerimeterSecurityComponent } from './app/routes/case-studies/perimeter-security/perimeter-security.component';
+import { HipaaComplianceComponent } from './app/routes/case-studies/hipaa-compliance/hipaa-compliance.component';
 
 const routeConfig: Routes = [
   {
@@ -114,6 +115,11 @@ const routeConfig: Routes = [
     path: 'case-studies/perimeter-security',
     component: PerimeterSecurityComponent,
     title: 'Perimeter Security - CheckIDInSAP',
+  },
+  {
+    path: 'case-studies/hipaa-compliance',
+    component: HipaaComplianceComponent,
+    title: 'HIPAA Compliance - CheckIDInSAP',
   },
   // --------------------
   {

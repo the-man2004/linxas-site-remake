@@ -61,7 +61,7 @@ export class CaseStudiesComponent {
     {
       title: 'HIPAA Compliance',
       text: 'HIPAA, the American Health Insurance Portability and Accountability Act, as amended by the Final Rule and the HITECH Act provisions of 2009 is a set of rules to be followed by doctors, hospitals, and also employers',
-      url: '',
+      url: '/case-studies/hipaa-compliance',
       id: 9,
     },
     {
