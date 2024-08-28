@@ -55,7 +55,7 @@ export class CaseStudiesComponent {
     {
       title: 'Perimeter Security',
       text: 'With the implementation of this solution, the client has graduated from the obsolete world of passwords to a far more controlled environment of biometric identity management.',
-      url: '',
+      url: '/case-studies/perimeter-security',
       id: 8,
     },
     {
