@@ -23,6 +23,7 @@ import { EmployeeSelfServiceComponent } from './app/routes/case-studies/employee
 import { WorkflowApprovalsComponent } from './app/routes/case-studies/workflow-approvals/workflow-approvals.component';
 import { PerimeterSecurityComponent } from './app/routes/case-studies/perimeter-security/perimeter-security.component';
 import { HipaaComplianceComponent } from './app/routes/case-studies/hipaa-compliance/hipaa-compliance.component';
+import { PublicSectorFraudComponent } from './app/routes/case-studies/public-sector-fraud/public-sector-fraud.component';
 
 const routeConfig: Routes = [
   {
@@ -120,6 +121,11 @@ const routeConfig: Routes = [
     path: 'case-studies/hipaa-compliance',
     component: HipaaComplianceComponent,
     title: 'HIPAA Compliance - CheckIDInSAP',
+  },
+  {
+    path: 'case-studies/public-sector-fraud',
+    component: PublicSectorFraudComponent,
+    title: 'Public Sector Fraud - CheckIDInSAP',
   },
   // --------------------
   {

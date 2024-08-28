@@ -67,7 +67,7 @@ export class CaseStudiesComponent {
     {
       title: 'Public Sector Fraud',
       text: 'We are seeing an increasing number of high-profile security breaches in the recent past. Apart from legislative challenges, SAP customers in general are facing more skilled and ruthless opportunists that will do anything to get unauthorized access to data and funds',
-      url: '',
+      url: '/case-studies/public-sector-fraud',
       id: 10,
     },
   ];
