@@ -18,6 +18,7 @@ import { SupplyChainComponent as SupplyChainCaseStudyComponent } from './app/rou
 import { BankingFraudComponent } from './app/routes/case-studies/banking-fraud/banking-fraud.component';
 import { ProcureToPayComponent } from './app/routes/case-studies/procure-to-pay/procure-to-pay.component';
 import { PayrollFraudComponent } from './app/routes/case-studies/payroll-fraud/payroll-fraud.component';
+import { RetailAndPosComponent } from './app/routes/case-studies/retail-and-pos/retail-and-pos.component';
 
 const routeConfig: Routes = [
   {
@@ -90,6 +91,11 @@ const routeConfig: Routes = [
     path: 'case-studies/payroll-fraud',
     component: PayrollFraudComponent,
     title: 'Payroll Fraud - CheckIDInSAP',
+  },
+  {
+    path: 'case-studies/retail-and-pos',
+    component: RetailAndPosComponent,
+    title: 'Retail and POS - CheckIDInSAP',
   },
   // --------------------
   {

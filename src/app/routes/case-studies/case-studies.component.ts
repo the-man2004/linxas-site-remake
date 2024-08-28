@@ -37,7 +37,7 @@ export class CaseStudiesComponent {
     {
       title: 'Retail / POS',
       text: 'RWZ is the third largest agricultural cooperative in Germany based in Mainz. It employs more than 3,300 employees working at over 200 locations via 17 subsidiary companies.',
-      url: '',
+      url: '/case-studies/retail-and-pos',
       id: 5,
     },
     {
