@@ -26,40 +26,11 @@
         company”.
       </p>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>Revenue N$5 billion</li>
-        <li>Privately held</li>
-        <li>
-          5,500 employees arming, retail, IT, property development, steel,
-          hospitality & more
-        </li>
-        <li>Over 4% of Namibia GDP</li>
-        <li>
-          Vision 2019: N$2 billing EBIT | 4,000 additional employment
-          opportunities | employer of choice | 20% reduction in carbon footprint
-        </li>
-      </ul>
+      <app-list [textArr]="arr" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Key Challenges</h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          Increase efficiencies by replacing a paper-based, labor-intensive
-          vacation requests with an electronic process
-        </li>
-        <li>
-          Enable users with limited SAP literacy or computer proficiency to
-          interact with HR
-        </li>
-        <li>Minimize training requirements via simplified interfaces</li>
-        <li>
-          Accommodate multi-lingual needs, especially for local languages not
-          supported by SAP
-        </li>
-        <li>Prevent inappropriate or fraudulent access to personal data</li>
-        <li>Prevent downtime related to password resets</li>
-        <li>Reduce time pressure on HR to provide simple ESS data</li>
-      </ul>
+      <app-list [textArr]="keyChallenges" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Major Objectives</h3>
 
@@ -68,35 +39,13 @@
         simplified interface:
       </p>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>Reduce turn-around for simple HR requests</li>
-        <li>Accommodate workers with limited computer access or knowledge</li>
-        <li>Prevent information privacy violations</li>
-      </ul>
+      <app-list [textArr]="majorObjectives" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">
         Key Business Outcomes
       </h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          Private HR data such as pay slips, vacation requests and scheduling
-          are available to non-specialist users at shared kiosks on a timely
-          basis
-        </li>
-        <li>
-          The paper-based, labor-intensive vacation request system is replaced
-          SAP data is replaced with a real-time electronic process
-        </li>
-        <li>
-          SAP data is presented in simplified screens, only information related
-          to tasks at hand is shown – no specialized SAP knowledge needed
-        </li>
-        <li>
-          Biometrically controlled access to information provides accountability
-          and prevents password sharing / fraudulent access
-        </li>
-      </ul>
+      <app-list [textArr]="keyBusinessOutcomes" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">
         Related case studies

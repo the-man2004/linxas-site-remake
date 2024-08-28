@@ -26,36 +26,11 @@
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Business Situation</h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          Increase in claims against Occupational Health Compensation, Pension
-          Funds, and other social benefits which are not matched by equivalent
-          collection of insurance premiums
-        </li>
-        <li>Financial challenges produced by difficult economic conditions</li>
-        <li>
-          Lack of controls in beneficiary registration and in benefits
-          disbursement
-        </li>
-      </ul>
+      <app-list [textArr]="businessSituation" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Key Challenges</h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>Prevent fraudulent claims for government social benefits</li>
-        <li>
-          Prevent double payments, misdirected payments due to password sharing
-        </li>
-        <li>
-          Prevent complicity of agency employees with fraudulent beneficiaries
-        </li>
-        <li>Control registration and activities involving beneficiaries</li>
-        <li>Enforce biometric authentication of high-risk activities</li>
-        <li>
-          Required tamper-proof logging of all restricted activities, including
-          failed or unauthorized attempts
-        </li>
-      </ul>
+      <app-list [textArr]="keyChallenges" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Major Objective</h3>
 
@@ -73,18 +48,7 @@
         Key Business Outcomes
       </h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          Biometric re-authentication of key activities involving beneficiary
-          claims mitigates the risk of fraudulent activities and the resulting
-          budgetary shortfalls
-        </li>
-        <li>
-          Registration and management of business partners and beneficiaries is
-          controlled via smart cards and biometrics
-        </li>
-        <li>Tamper-proof audit trail in effect for user accountability</li>
-      </ul>
+      <app-list [textArr]="keyBusinessOutcomes" />
     </div>
   </main>
 </div>

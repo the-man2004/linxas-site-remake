@@ -25,57 +25,17 @@
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Business Situation</h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          The government agency uses SAP solutions for most business processes
-          including HR & Payroll
-        </li>
-        <li>
-          An information privacy violation had occurred prior to bioLock
-          installation, where employees’ electronic protected health information
-          (EPHI) was accessed by unauthorized parties
-        </li>
-        <li>Risk of increased civil/criminal penalties</li>
-      </ul>
+      <app-list [textArr]="businessSituation" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Key Challenges</h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          HIPAA requires disclosure of any breaches of protected data. Employers
-          are “covered entities” if they provide healthcare benefits to
-          employees
-        </li>
-        <li>
-          SAP HR data is stored in “infotypes”, e.g. infotype 0167 (Health
-          Plans), which have to be individually controlled to avoid unauthorized
-          access
-        </li>
-        <li>
-          Both administrative and technical safeguards are required – standard
-          passwords cannot provide the needed granular access control to SAP
-          infotypes
-        </li>
-      </ul>
+      <app-list [textArr]="keyChallenges" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">
         Implementation Highlights
       </h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          Created biometric credential profiles for users authorized to
-          view/edit data defined as PHI under the Privacy Rule
-        </li>
-        <li>
-          Associated individual biometric user profiles with specific tasks in
-          SAP HR
-        </li>
-        <li>Enforced biometric re-authentication for every sensitive task</li>
-        <li>
-          Implemented tamper-proof log-file trail for each protected transaction
-        </li>
-      </ul>
+      <app-list [textArr]="implementationHighlights" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Major Objective</h3>
 
@@ -83,25 +43,13 @@
         The following challenges were identified:
       </p>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          Comply with the Security Rule which requires technical safeguards
-          (§164.304) “… the technology and the policy and procedures for its use
-          that protect electronic protected health information and control
-          access to it.”
-        </li>
-      </ul>
+      <app-list [textArr]="majorObjectives" />
 
       <p class="my-5 text-lg lg:text-xl lg:gap-10">
         Implement Access Controls that allow:
       </p>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>Unique User Identification</li>
-        <li>Emergency Access Procedure</li>
-        <li>Automatic Logoff</li>
-        <li>Encryption and Decryption</li>
-      </ul>
+      <app-list [textArr]="arr" />
     </div>
   </main>
 </div>

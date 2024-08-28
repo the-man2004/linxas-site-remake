@@ -23,49 +23,17 @@
         double transactions and more.
       </p>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>Growing student body</li>
-        <li>Budgetary restraints due to declining funding allocations</li>
-        <li>
-          Declining capital spending putting more pressure on infrastructure
-        </li>
-        <li>Salaries fixed by Collective Bargaining</li>
-        <li>
-          Agreement – non-exempt overtime pay contributing to budget shortfall
-        </li>
-      </ul>
+      <app-list [textArr]="businessSituation" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Key Challenges</h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          Non-exempt administrative workers overtime approval process flawed
-        </li>
-        <li>
-          This user has experienced instances of extensive fraud in the approval
-          of overtime pay
-        </li>
-        <li>
-          SAP process for approval of overtime pay typically delegated to
-          administrative assistants, creating a fraud opportunity
-        </li>
-        <li>SAP passwords were the only security mechanism prior to bioLock</li>
-      </ul>
+      <app-list [textArr]="keyChallenges" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">
         Implementation Highlights
       </h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          Associate individual biometric user profiles with specific SAP tasks
-          in HR/Payroll, defining any delegated tasks
-        </li>
-        <li>Enforce biometric re-authentication for every sensitive task</li>
-        <li>
-          Tamper-proof logging and audit trail for each protected transaction
-        </li>
-      </ul>
+      <app-list [textArr]="implementationHighlights" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Major Objectives</h3>
 
@@ -75,29 +43,13 @@
         from unearned overtime pay:
       </p>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>Provide indisputable identity management with biometrics</li>
-        <li>
-          Control extended authorizations where a user executed transactions
-          under a supervisor’s profile
-        </li>
-        <li>Identify transactions executed under delegated authority</li>
-        <li>Create an indelible audit trail of activity</li>
-        <li>
-          Ensure true segregation of duties (SoD) in the approval of overtime
-          pay
-        </li>
-      </ul>
+      <app-list [textArr]="majorObjectives" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">
         Key Business Outcomes
       </h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>Payroll overtime fraud has been eliminated</li>
-        <li>Payroll budget control has been regained using biometrics</li>
-        <li>Employees responsible for fraud were held accountable</li>
-      </ul>
+      <app-list [textArr]="keyBusinessOutcomes" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">
         Related case studies

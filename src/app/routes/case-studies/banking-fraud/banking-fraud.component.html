@@ -7,39 +7,11 @@
     <div class="mx-auto max-w-[750px]">
       <h3 class="mb-5 font-semibold text-lg lg:text-xl">Business Situation</h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>Major banking organization</li>
-        <li>High volume of high-value transactions</li>
-        <li>Exposure to international currency fluctuations</li>
-        <li>
-          Multiple aspects of banking including deposits, lending, investment
-          and bullion
-        </li>
-      </ul>
+      <app-list [textArr]="businessSituation" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Key Challenges</h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>Eliminate reliance on passwords</li>
-        <li>
-          Control electronic movement of large sums in various international
-          currencies
-        </li>
-        <li>Control access to vendor data and release of payments</li>
-        <li>
-          Provide assurance to stakeholders of the safe-keeping of depositors’
-          and investors’ funds
-        </li>
-        <li>Monitor any SAP activity considered to offer risk</li>
-        <li>
-          Restrict access to high-level financial data viewing to authorized
-          users only
-        </li>
-        <li>
-          Required tamper-proof logging of all restricted activities, including
-          failed or unauthorized attempts
-        </li>
-      </ul>
+      <app-list [textArr]="keyChallenges" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Major Objectives</h3>
 
@@ -68,21 +40,7 @@
         Key Business Outcomes
       </h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          Sensitive financial activities including large wire transfers, loan
-          write-offs and more require biometric credentials and authentication
-        </li>
-        <li>
-          Ability to set threshold field values in certain transactions, above
-          which threshold biometric re-authentication is triggered
-        </li>
-        <li>
-          Silent e-mail alerts and tamper-proof logging of failed activities
-          indicating possible overstepping of a user’s credentials, providing a
-          forensic trail
-        </li>
-      </ul>
+      <app-list [textArr]="keyBusinessOutcomes" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">
         Related case studies

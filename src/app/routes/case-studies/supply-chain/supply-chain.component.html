@@ -54,29 +54,11 @@
         processes in diverse locations using shared devices:
       </p>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>Securing access to scheduling, planning, BOM, maintenance</li>
-        <li>
-          Ensuring secure access to SAP data at shared kiosks via biometrics
-        </li>
-        <li>Improve efficiency, lower downtime and maintenance costs</li>
-      </ul>
+      <app-list [textArr]="theChallenge" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">Key Challenges</h3>
 
-      <ul class="list-container flex flex-col gap-5">
-        <li>
-          Enable users with limited computer literacy or SAP proficiency to
-          interact with systems easily
-        </li>
-        <li>Minimize training requirements</li>
-        <li>Accommodate multi-lingual needs</li>
-        <li>Enforce biometric authentication of all SAP data access</li>
-        <li>
-          Lower Maintenance costs – keep plants & depots running more
-          efficiently
-        </li>
-      </ul>
+      <app-list [textArr]="keyChallenges" />
 
       <h3 class="my-5 font-semibold text-lg lg:text-xl">The Solution</h3>
 
