@@ -43,7 +43,7 @@ export class CaseStudiesComponent {
     {
       title: 'Employee Self-Service',
       text: 'As a truly Namibian company employing 5,568 people in various sectors, the Ohlthaver & List Group is rooted in and committed to, Namibia and all her peoples.',
-      url: '',
+      url: '/case-studies/employee-self-service',
       id: 6,
     },
     {

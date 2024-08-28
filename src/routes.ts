@@ -19,6 +19,7 @@ import { BankingFraudComponent } from './app/routes/case-studies/banking-fraud/b
 import { ProcureToPayComponent } from './app/routes/case-studies/procure-to-pay/procure-to-pay.component';
 import { PayrollFraudComponent } from './app/routes/case-studies/payroll-fraud/payroll-fraud.component';
 import { RetailAndPosComponent } from './app/routes/case-studies/retail-and-pos/retail-and-pos.component';
+import { EmployeeSelfServiceComponent } from './app/routes/case-studies/employee-self-service/employee-self-service.component';
 
 const routeConfig: Routes = [
   {
@@ -96,6 +97,11 @@ const routeConfig: Routes = [
     path: 'case-studies/retail-and-pos',
     component: RetailAndPosComponent,
     title: 'Retail and POS - CheckIDInSAP',
+  },
+  {
+    path: 'case-studies/employee-self-service',
+    component: EmployeeSelfServiceComponent,
+    title: 'Employee Self-Service - CheckIDInSAP',
   },
   // --------------------
   {
