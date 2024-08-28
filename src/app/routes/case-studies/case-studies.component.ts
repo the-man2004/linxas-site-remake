@@ -49,7 +49,7 @@ export class CaseStudiesComponent {
     {
       title: 'Workflow Approvals',
       text: 'Pharma manufacturer installs bioLock(TM) within SAP to implement workflow approvals with biometric identity management.',
-      url: '',
+      url: '/case-studies/workflow-approvals',
       id: 7,
     },
     {

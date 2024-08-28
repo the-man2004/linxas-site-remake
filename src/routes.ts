@@ -20,6 +20,7 @@ import { ProcureToPayComponent } from './app/routes/case-studies/procure-to-pay/
 import { PayrollFraudComponent } from './app/routes/case-studies/payroll-fraud/payroll-fraud.component';
 import { RetailAndPosComponent } from './app/routes/case-studies/retail-and-pos/retail-and-pos.component';
 import { EmployeeSelfServiceComponent } from './app/routes/case-studies/employee-self-service/employee-self-service.component';
+import { WorkflowApprovalsComponent } from './app/routes/case-studies/workflow-approvals/workflow-approvals.component';
 
 const routeConfig: Routes = [
   {
@@ -102,6 +103,11 @@ const routeConfig: Routes = [
     path: 'case-studies/employee-self-service',
     component: EmployeeSelfServiceComponent,
     title: 'Employee Self-Service - CheckIDInSAP',
+  },
+  {
+    path: 'case-studies/workflow-approvals',
+    component: WorkflowApprovalsComponent,
+    title: 'Workflow Approvals - CheckIDInSAP',
   },
   // --------------------
   {
