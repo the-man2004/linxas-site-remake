@@ -63,28 +63,27 @@
           <h3 class="my-5 font-semibold text-lg lg:text-xl">
             Related case studies
           </h3>
-          <nav>
-            <menu>
-              <li>
-                <a routerLink="/case-studies/payroll-fraud">Payroll Fraud</a>
-              </li>
-              <li>
-                <a routerLink="/case-studies/employee-self-service"
-                  >Employee Self-Service</a
-                >
-              </li>
-              <li>
-                <a routerLink="/case-studies/workflow-approvals"
-                  >Workflow Approvals</a
-                >
-              </li>
-              <li>
-                <a routerLink="/case-studies/perimeter-security"
-                  >Perimeter Security</a
-                >
-              </li>
-            </menu>
-          </nav>
+
+          <app-link-list
+            [arr]="[
+              {
+                text: 'Payroll Fraud',
+                url: '/case-studies/payroll-fraud'
+              },
+              {
+                text: 'Employee Self-Service',
+                url: '/case-studies/employee-self-service'
+              },
+              {
+                text: 'Workflow Approvals',
+                url: '/case-studies/workflow-approvals'
+              },
+              {
+                text: 'Perimeter Security',
+                url: '/case-studies/perimeter-security'
+              }
+            ]"
+          />
         </div>
       </div>
     </div>

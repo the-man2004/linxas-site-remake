@@ -55,21 +55,23 @@
           <h3 class="mb-5 font-semibold text-lg lg:text-xl">
             Related case studies
           </h3>
-          <nav>
-            <menu>
-              <li>
-                <a routerLink="/case-studies/supply-chain">Supply Chain</a>
-              </li>
-              <li>
-                <a routerLink="/case-studies/workflow-approvals"
-                  >Workflow Approvals</a
-                >
-              </li>
-              <li>
-                <a routerLink="/case-studies/procure-to-pay">Procure-to-Pay</a>
-              </li>
-            </menu>
-          </nav>
+
+          <app-link-list
+            [arr]="[
+              {
+                text: 'Supply Chain',
+                url: '/case-studies/supply-chain'
+              },
+              {
+                text: 'Workflow Approvals',
+                url: '/case-studies/workflow-approvals'
+              },
+              {
+                text: 'Procure-to-Pay',
+                url: '/case-studies/procure-to-pay'
+              }
+            ]"
+          />
         </div>
       </div>
     </div>

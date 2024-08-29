@@ -3,11 +3,12 @@ import { RouterModule } from '@angular/router';
 
 import { LogoComponent } from '../../../shared/logo/logo.component';
 import { ListComponent } from '../../../shared/list/list.component';
+import { LinkListComponent } from '../../../shared/link-list/link-list.component';
 
 @Component({
   selector: 'app-supply-chain',
   standalone: true,
-  imports: [RouterModule, LogoComponent, ListComponent],
+  imports: [RouterModule, LogoComponent, ListComponent, LinkListComponent],
   templateUrl: './supply-chain.component.html',
   styleUrl: './supply-chain.component.css',
 })

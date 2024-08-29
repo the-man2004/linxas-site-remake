@@ -73,22 +73,27 @@
           <h3 class="my-5 font-semibold text-lg lg:text-xl">
             Related case studies
           </h3>
-          <nav>
-            <menu>
-              <li>
-                <a routerLink="/case-studies/banking-fraud">Banking Fraud</a>
-              </li>
-              <li>
-                <a routerLink="/case-studies/procure-to-pay">Procure-to-Pay</a>
-              </li>
-              <li>
-                <a routerLink="/case-studies/payroll-fraud">Payroll Fraud</a>
-              </li>
-              <li>
-                <a routerLink="/case-studies/retail-and-pos">Retail / POS</a>
-              </li>
-            </menu>
-          </nav>
+
+          <app-link-list
+            [arr]="[
+              {
+                text: 'Banking Fraud',
+                url: '/case-studies/banking-fraud'
+              },
+              {
+                text: 'Procure-to-Pay',
+                url: '/case-studies/procure-to-pay'
+              },
+              {
+                text: 'Payroll Fraud',
+                url: '/case-studies/payroll-fraud'
+              },
+              {
+                text: 'Retail / POS',
+                url: '/case-studies/retail-and-pos'
+              }
+            ]"
+          />
         </div>
       </div>
     </div>

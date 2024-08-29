@@ -3,11 +3,12 @@ import { RouterModule } from '@angular/router';
 
 import { LogoComponent } from '../../../shared/logo/logo.component';
 import { ListComponent } from '../../../shared/list/list.component';
+import { LinkListComponent } from '../../../shared/link-list/link-list.component';
 
 @Component({
   selector: 'app-human-resources',
   standalone: true,
-  imports: [RouterModule, LogoComponent, ListComponent],
+  imports: [RouterModule, LogoComponent, ListComponent, LinkListComponent],
   templateUrl: './human-resources.component.html',
   styleUrl: './human-resources.component.css',
 })

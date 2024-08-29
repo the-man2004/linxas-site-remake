@@ -3,11 +3,12 @@ import { RouterModule } from '@angular/router';
 
 import { LogoComponent } from '../../../shared/logo/logo.component';
 import { ListComponent } from '../../../shared/list/list.component';
+import { LinkListComponent } from '../../../shared/link-list/link-list.component';
 
 @Component({
   selector: 'app-solution-areas',
   standalone: true,
-  imports: [LogoComponent, RouterModule, ListComponent],
+  imports: [LogoComponent, RouterModule, ListComponent, LinkListComponent],
   templateUrl: './finance.component.html',
   styleUrl: './finance.component.css',
 })

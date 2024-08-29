@@ -1,1 +1,12 @@
-<p>link-list works!</p>
+<nav>
+  <menu>
+    @for (element of arr; track element.text) {
+
+    <li>
+      <a [routerLink]="element.url" (click)="onLinkClick()">
+        {{ element.text }}
+      </a>
+    </li>
+    }
+  </menu>
+</nav>
