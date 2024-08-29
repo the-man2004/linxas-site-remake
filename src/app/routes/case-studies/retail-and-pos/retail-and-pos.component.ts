@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import { LogoComponent } from '../../../shared/logo/logo.component';
 import { RouterModule } from '@angular/router';
 import { ListComponent } from '../../../shared/list/list.component';
+import { LinkListComponent } from '../../../shared/link-list/link-list.component';
 
 @Component({
   selector: 'app-retail-and-pos',
   standalone: true,
-  imports: [LogoComponent, RouterModule, ListComponent],
+  imports: [LogoComponent, RouterModule, ListComponent, LinkListComponent],
   templateUrl: './retail-and-pos.component.html',
-  styleUrl: './retail-and-pos.component.css',
 })
 export class RetailAndPosComponent {
   businessSituation = [

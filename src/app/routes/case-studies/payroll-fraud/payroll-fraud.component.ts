@@ -2,13 +2,13 @@ import { Component } from '@angular/core';
 import { LogoComponent } from '../../../shared/logo/logo.component';
 import { RouterModule } from '@angular/router';
 import { ListComponent } from '../../../shared/list/list.component';
+import { LinkListComponent } from '../../../shared/link-list/link-list.component';
 
 @Component({
   selector: 'app-payroll-fraud',
   standalone: true,
-  imports: [LogoComponent, RouterModule, ListComponent],
+  imports: [LogoComponent, RouterModule, ListComponent, LinkListComponent],
   templateUrl: './payroll-fraud.component.html',
-  styleUrl: './payroll-fraud.component.css',
 })
 export class PayrollFraudComponent {
   businessSituation = [

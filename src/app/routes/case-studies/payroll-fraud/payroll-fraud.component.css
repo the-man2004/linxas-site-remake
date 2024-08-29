@@ -1,7 +1,0 @@
-menu > li a {
-  transition: all 100ms ease;
-}
-
-menu > li a:hover {
-  color: #ffa400;
-}

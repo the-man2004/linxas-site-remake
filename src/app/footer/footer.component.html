@@ -14,43 +14,48 @@
   <div class="mt-10 lg:mt-0 lg:flex lg:justify-between lg:gap-10">
     <div class="mb-10 lg:mb-0">
       <h3 class="pb-5 font-semibold text-2xl lg:text-3xl">Company</h3>
-      <nav>
-        <menu>
-          <li>
-            <a routerLink="/about" (click)="onLinkClick()">About</a>
-          </li>
-          <li>
-            <a routerLink="/solution-areas" (click)="onLinkClick()"
-              >Solution Areas</a
-            >
-          </li>
-          <li>
-            <a routerLink="/case-studies" (click)="onLinkClick()"
-              >Case Studies</a
-            >
-          </li>
-          <li>
-            <a routerLink="/multimedia" (click)="onLinkClick()">Multimedia</a>
-          </li>
-          <li>
-            <a routerLink="/team" (click)="onLinkClick()">Team</a>
-          </li>
-          <li>
-            <a routerLink="/contact" (click)="onLinkClick()">Contact</a>
-          </li>
-        </menu>
-      </nav>
+
+      <app-link-list
+        [arr]="[
+          {
+            text: 'About',
+            url: '/about'
+          },
+          {
+            text: 'Solution Areas',
+            url: '/solution-areas'
+          },
+          {
+            text: 'Case Studies',
+            url: '/case-studies'
+          },
+          {
+            text: 'Multimedia',
+            url: '/multimedia'
+          },
+          {
+            text: 'Team',
+            url: '/team'
+          },
+          {
+            text: 'Contact',
+            url: '/contact'
+          }
+        ]"
+      />
     </div>
 
     <div>
       <h3 class="pb-5 font-semibold text-2xl lg:text-3xl">Support</h3>
-      <nav>
-        <menu>
-          <li>
-            <a routerLink="/contact" (click)="onLinkClick()">Email Us</a>
-          </li>
-        </menu>
-      </nav>
+
+      <app-link-list
+        [arr]="[
+          {
+            text: 'Email Us',
+            url: '/contact'
+          }
+        ]"
+      />
     </div>
   </div>
 </footer>
