@@ -11,4 +11,9 @@ import { RouterModule } from '@angular/router';
 export class LinkComponent {
   @Input({ required: true }) text!: string;
   @Input({ required: true }) url!: string;
+
+  onLinkClick() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 }

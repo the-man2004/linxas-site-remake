@@ -9,4 +9,9 @@ import { RouterModule } from '@angular/router';
   templateUrl: './solution-areas.component.html',
   styleUrl: './solution-areas.component.css',
 })
-export class SolutionAreasComponent {}
+export class SolutionAreasComponent {
+  onLinkClick() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+}

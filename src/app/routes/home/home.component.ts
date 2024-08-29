@@ -8,4 +8,9 @@ import { RouterModule } from '@angular/router';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
-export class HomeComponent {}
+export class HomeComponent {
+  onLinkClick() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+}

@@ -8,4 +8,9 @@ import { RouterModule } from '@angular/router';
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css',
 })
-export class FooterComponent {}
+export class FooterComponent {
+  onLinkClick() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+}

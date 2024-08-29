@@ -15,4 +15,13 @@ export class HeaderComponent {
   onMenuClick() {
     this.isMenuOpen = !this.isMenuOpen;
   }
+
+  onLinkClick(mode: 'mobile' | 'desktop' = 'mobile') {
+    if (mode === 'mobile') {
+      this.onMenuClick();
+    }
+
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 }

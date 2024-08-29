@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -10,4 +10,9 @@ import { RouterModule } from '@angular/router';
 })
 export class NavigationLinksComponent {
   @Input({ required: true }) styleClass!: string;
+  @Output() clickEvent = new EventEmitter();
+
+  onLinkClick() {
+    this.clickEvent.emit();
+  }
 }

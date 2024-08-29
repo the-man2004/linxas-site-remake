@@ -13,6 +13,7 @@
 
   <app-navigation-links
     styleClass="h-full hidden lg:flex lg:flex-col lg:justify-center"
+    (clickEvent)="onLinkClick('desktop')"
   />
 
   <div class="lg:hidden">
@@ -22,6 +23,7 @@
     @if (isMenuOpen) {
     <app-navigation-links
       styleClass="bg-white absolute left-0 right-0 top-[52px] px-9 py-5 w-screen border border-t-gray-200 border-b-gray-200 lg:hidden"
+      (clickEvent)="onLinkClick('mobile')"
     />
     }
   </div>
