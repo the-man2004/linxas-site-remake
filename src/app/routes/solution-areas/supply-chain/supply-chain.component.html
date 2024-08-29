@@ -49,16 +49,7 @@
             Threat areas within the supply chain can include:
           </h3>
 
-          <ul class="list-container flex flex-col gap-5">
-            <li>Unauthorized Movement of Inventory, WIP, Raw Materials</li>
-            <li>Receipt and Release of Goods</li>
-            <li>Customer or Vendor Account Tampering</li>
-            <li>Shrinkage</li>
-            <li>Inventory Write-offs</li>
-            <li>Unauthorized Access to Bill of Materials (BOM)</li>
-            <li>System access at shared devices</li>
-            <li>Regulatory violations (example ITAR)</li>
-          </ul>
+          <app-list [textArr]="threatAreas" />
         </div>
         <div class="mt-10 lg:mt-0">
           <h3 class="mb-5 font-semibold text-lg lg:text-xl">
